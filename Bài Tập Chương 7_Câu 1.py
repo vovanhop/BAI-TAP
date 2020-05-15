@@ -1,0 +1,5 @@
+a=int(input("Nhap a:"))
+b=int(input("Nhap b:"))
+file=open('add.txt','w')
+file.write(str(a+b))
+file.close()
