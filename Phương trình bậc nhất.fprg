@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Hop"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-03-01 06:37:25 AM"/>
+        <attribute name="created" value="SG9wO0hPUC1QQzsyMDIwLTAzLTAxOzA1OjQ2OjQzIEFNOzE5Nzc="/>
+        <attribute name="edited" value="SG9wO0hPUC1QQzsyMDIwLTAzLTAxOzA2OjM3OjI1IEFNOzE7MjA4Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, x" type="Real" array="False" size=""/>
+            <output expression="&quot;Nh&#7853;p a&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Nh&#7853;p b&quot;" newline="True"/>
+            <input variable="b"/>
+            <if expression="a=0">
+                <then>
+                    <if expression="b=0">
+                        <then>
+                            <output expression="&quot;Ph&#432;&#417;ng tr&#236;nh v&#244; s&#7889; nghi&#7879;m&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Ph&#432;&#417;ng tr&#236;nh v&#244; nghi&#7879;m&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="x" expression="-b/a"/>
+                    <output expression="&quot;ph&#432;&#417;ng tr&#236;nh c&#243; nghi&#7879;m l&#224;: x=&quot;" newline="True"/>
+                    <output expression="x" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
